@@ -1,0 +1,45 @@
+# ==============================================
+# 【通用C# .NET 项目忽略文件】
+# WinForm / 控制台 / ASPX / Core / 前后端分离
+# ==============================================
+
+# 编译输出目录
+/bin
+/obj
+/Bin
+/Obj
+/Debug
+/Release
+/x64
+/x84
+
+# Visual Studio 缓存
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.cache
+*.csproj.user
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+*.cache
+*.pid
+*.ilk
+*.pdb
+
+# 包目录（自动下载的，不用传）
+/packages/
+/node_modules/       <<< 前端Vue/React必备
+
+# 配置文件（本地开发用，不上传）
+appsettings.json.user
+appsettings.Development.json.user
+Properties/PublishProfiles/
+
+# 前端打包（前后端分离项目）
+dist/
+build/
