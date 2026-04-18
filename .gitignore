@@ -1,0 +1,12 @@
+.vs/
+bin/
+obj/
+Debug/
+Release/
+packages/
+*.user
+*.suo
+*.pdb
+*.log
+node_modules/
+dist/
